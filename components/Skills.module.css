@@ -1,0 +1,7 @@
+.skillList {
+    display: flex;
+}
+
+.skill {
+    white-space: nowrap;
+}
