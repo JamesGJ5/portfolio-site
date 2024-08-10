@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Skills from "@/components/Skills/Skills";
 import { ExperienceProps } from "@/types";
+import styles from "./Experience.module.css";
 
 function displayDate(date: Date) {
     return date.toLocaleDateString('en-GB', {year: 'numeric', month: 'long'})
@@ -16,7 +17,7 @@ export default function Experience({ experience }: ExperienceProps) {
     }
     return (
         <>
-            <h3>
+            <h3 className={styles.position}>
                 {position}
             </h3>
             <p>
