@@ -1,6 +1,6 @@
 import React from "react";
-import Project from "@/components/Project";
-import Skills from "@/components/Skills";
+import Project from "@/components/Project/Project";
+import Skills from "@/components/Skills/Skills";
 import { OpenSourceProjectProps } from "@/types";
 
 function makeContributionElement(type: string, url: string, index: number): React.ReactElement {

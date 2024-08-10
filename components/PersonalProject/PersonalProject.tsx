@@ -1,5 +1,5 @@
-import Project from "@/components/Project";
-import Skills from "@/components/Skills";
+import Project from "@/components/Project/Project";
+import Skills from "@/components/Skills/Skills";
 import { PersonalProjectProps } from "@/types";
 
 export default function PersonalProject({ personalProject }: PersonalProjectProps) {

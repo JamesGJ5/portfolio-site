@@ -1,8 +1,8 @@
 import Image from "next/image"
-import Experience from "@/components/Experience"
+import Experience from "@/components/Experience/Experience"
 import { notableExperiences, educationalExperiences } from "@/data/experiences";
-import ComponentList from "@/components/ComponentList";
-import Skills from "@/components/Skills";
+import ComponentList from "@/components/ComponentList/ComponentList";
+import Skills from "@/components/Skills/Skills";
 
 export default function IndexPage() {
   return (

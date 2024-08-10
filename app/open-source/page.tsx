@@ -1,5 +1,5 @@
-import OpenSourceProject from "@/components/OpenSourceProject";
-import FeaturedUnfeatured from "@/components/FeaturedUnfeatured";
+import OpenSourceProject from "@/components/OpenSourceProject/OpenSourceProject";
+import FeaturedUnfeatured from "@/components/FeaturedUnfeatured/FeaturedUnfeatured";
 import openSourceProjects from "@/data/openSourceProjects";
 
 export default function OpenSourcePage() {

@@ -1,4 +1,4 @@
-import ComponentList from "@/components/ComponentList";
+import ComponentList from "@/components/ComponentList/ComponentList";
 import { FeaturedUnfeaturedProps } from "@/types";
 
 export default function FeaturedUnfeatured<T extends object>({ featuredProps, unfeaturedProps, ListedComponent }: FeaturedUnfeaturedProps<T>) {

@@ -1,6 +1,5 @@
 import { ProjectProps } from "@/types"
 import Image from "next/image";
-import styles from "./Project.module.css";
 
 function makeRepoURL(repoName: string): string {
     return `https://github.com/${repoName}`;

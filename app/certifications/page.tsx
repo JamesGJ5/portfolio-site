@@ -1,5 +1,5 @@
-import Certification from "@/components/Certification";
-import ComponentList from "@/components/ComponentList";
+import Certification from "@/components/Certification/Certification";
+import ComponentList from "@/components/ComponentList/ComponentList";
 import { certifications } from "@/data/certifications";
 
 export default function CertificationsPage() {

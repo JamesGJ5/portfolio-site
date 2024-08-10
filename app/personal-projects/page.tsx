@@ -1,5 +1,5 @@
-import PersonalProject from "@/components/PersonalProject";
-import FeaturedUnfeatured from "@/components/FeaturedUnfeatured";
+import PersonalProject from "@/components/PersonalProject/PersonalProject";
+import FeaturedUnfeatured from "@/components/FeaturedUnfeatured/FeaturedUnfeatured";
 import { sortPersonalProjects, getPersonalProjects } from "@/utils/personalProjectUtils";
 
 export default async function ProjectsPage() {

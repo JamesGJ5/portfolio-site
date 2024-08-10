@@ -1,5 +1,5 @@
 import Image from "next/image"
-import Skills from "@/components/Skills";
+import Skills from "@/components/Skills/Skills";
 import { ExperienceProps } from "@/types";
 
 function displayDate(date: Date) {
