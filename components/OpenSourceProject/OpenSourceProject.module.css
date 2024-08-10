@@ -1,11 +1,7 @@
-.certification {
+.openSourceProject {
     width: 250px;
     background-color: silver;
     min-height: 300px;
     border-radius: 20px;
     padding: 8px;
-}
-
-.certificationName {
-    font-weight: 700;
 }
