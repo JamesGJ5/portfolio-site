@@ -7,7 +7,7 @@ import Skills from "@/components/Skills";
 export default function IndexPage() {
   return (
     <main>
-      <h1>Welcome to my Portfolio Site!</h1>
+      <h1>Welcome!</h1>
       <section>
         <h2>About me...</h2>
         <p>
@@ -28,7 +28,7 @@ export default function IndexPage() {
         </ol>
       </section>
       <section>
-        <h2>Further Knowledge and Skills...</h2>
+        <h2>More Skills...</h2>
         <Skills skills={
           ['AWS Identity and Access Management', 'AWS Lambda', 'Amazon DynamoDB', 'Amazon API Gateway', 'AWS Amplify', 'Docker', 'Material-UI', 'Web Scraping (Puppeteer)', 'Data Structures & Algorithms']
         }/>
