@@ -1,0 +1,4 @@
+.certificationList {
+    display: flex;
+    flex-wrap: wrap;
+}
