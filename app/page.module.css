@@ -1,0 +1,26 @@
+.headshot {
+    border-radius: 20px;
+    border-color: black;
+    border-width: 3px;
+}
+
+.aboutMeSection {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.aboutMeDescription {
+    width: 250px;
+}
+
+.aboutMeSectionHeading {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.sectionHeading {
+    font-weight: 700;
+    font-size: 20px;
+}

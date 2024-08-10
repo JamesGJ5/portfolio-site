@@ -1,3 +1,8 @@
 .position {
     font-weight: 700;
 }
+
+.descriptions {
+    list-style-type: square;
+    padding-left: 20px;
+}

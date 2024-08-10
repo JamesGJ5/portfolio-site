@@ -20,7 +20,7 @@ export const notableExperiences: Experience[] = [
         startDate: new Date(2023, 7),
         endDate: new Date (2023, 7),
         descriptions: [
-            'Used TypeScript at a pre-seed startDateup to help build an online marketplace for sustainable materials at tocco.earth.',
+            'Used TypeScript at a pre-seed startup to help build an online marketplace for sustainable materials at tocco.earth.', // TODO: make tocco.earth into a link
             'Refactored a data scraping pipeline featuring Python, Beautiful Soup, the OpenAI API and a PostgreSQL database, using Supabase and SQL to redesign the database’s schema and Prisma to modify the API accordingly.',
             'Ideated on the product and wrote detailed documentation about it for onboarding future hires.'
         ],
@@ -38,7 +38,6 @@ export const notableExperiences: Experience[] = [
             'Made multiple contributions to enhance the curriculum. Example involving binary search trees: github.com/TheOdinProject/curriculum/pull/25540.'
         ],
         skills: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'JavaScript ES6+', 'HTML', 'CSS', 'Responsive Design', 'Accessibility', 'REST APIs', 'Jest', 'API Testing (SuperTest)', 'React Testing Library', 'Linux', 'Git', 'VS Code', 'Passport.js', 'PugJS', 'Babel.js', 'Webpack', 'Google Cloud Platform'],
-        orgLinkedInUrl: 'https://www.linkedin.com/company/the-odin-project/',
         orgHomePageUrl: 'https://www.theodinproject.com/',
     },
 ];

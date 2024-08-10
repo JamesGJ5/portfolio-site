@@ -15,25 +15,18 @@ export default function Experience({ experience }: ExperienceProps) {
     } else if (!endDate) {
         dateSpanText += ` - Present`;
     }
+    const orgUrl = orgLinkedInUrl || orgHomePageUrl;
+    const orgElement = orgUrl ? <a href={orgUrl}>{org}</a> : org;
     return (
         <>
             <h3 className={styles.position}>
-                {position}
+                {position} @ {orgElement}
             </h3>
-            <p>
-                {org}
-            </p>
-            {orgHomePageUrl && <p>
-                <a href={orgHomePageUrl}>{orgHomePageUrl}</a>
-            </p>}
-            {orgLinkedInUrl && <p>
-                LinkedIn: <a href={orgLinkedInUrl}>{orgLinkedInUrl}</a>
-            </p>}
             {orgImageSrc && <Image src={orgImageSrc} alt={`Logo of ${org}`} width={50/96*98} height={50} />}
             <p>
                 {dateSpanText}
             </p>
-            <ul>
+            <ul className={styles.descriptions}>
                 {descriptions.map((description, index) => <li key={index}>{description}</li>)}
             </ul>
             {skills && <Skills skills={skills}/>}
